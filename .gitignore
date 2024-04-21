@@ -1,0 +1,49 @@
+target
+classes
+bin
+*.log
+dist
+node_modules
+
+# Eclipse
+.classpath
+.project
+.settings
+.metadata
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea
+build
+out
+generated
+MANIFEST.MF
+
+
+
+#angular
+node_modules
+
+.gradle
+Lab3/.gradle
+**/build/
+!src/**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Avoid ignore Gradle wrappper properties
+!gradle-wrapper.properties
+
+# Cache of project
+.gradletasknamecache
+Lab3/.gradle
+Lab3/.gradle
+Lab3/client/build
+Lab3/common/build
+Lab3/server/build
